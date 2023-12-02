@@ -1,0 +1,123 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Haymar Phyoe, a Senior AI Engineer at CID, UMG. I specialize in AI strategy, NLP, speech processing, and data analysis. My passion is to drive AI innovation while upholding ethical AI practices. Excited to share my work with you!",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+
+      {
+        "title": "Burmese-Topic-Modeling",
+        "startDate": "2023",
+        "description": "This is for training Burmese topic modeling using BERTopic. BERTopic is an open-source topic modeling technique that leverages the power of BERT embeddings to identify and cluster topics in a given text corpus. ",
+        "images": [
+          "images/portfolio/Topic/topic1.png",
+          "images/portfolio/Topic/topic2.png"
+        ],
+        "url": "https://github.com/hmp-08/Burmese-Topic-Modeling",
+        "technologies": [   
+        ]
+      },
+
+      {
+        "title": "Burmese-POS-Tagger-Flair",
+        "startDate": "2023",
+        "description": "This is a high-accuracy Burmese Part-of-Speech (POS) model using Flair with two embedding methods, one is custom gensim word2vec model and the other is with stacked of two FlairEmbedding models (forward and backward)",
+        "images": [
+          "images/portfolio/Flair/flair1.png",
+          "images/portfolio/Flair/flair2.png"
+        ],
+        "url": "https://github.com/hmp-08/Burmese_POS_tagger_with_Flair",
+        "technologies": [   
+        ]
+      },
+
+      {
+        "title": "Burmese-BERT-Models",
+        "startDate": "2023",
+        "description": "This work consists of two training pipelines of Burmese BERT models for Masked Language Modeling (MLM) task and Next Sentence Prediction (NSP) task.",
+        "images": [
+          "images/portfolio/Bert/bert1.png",
+          "images/portfolio/Bert/bert2.png"
+        ],
+        "url": "https://github.com/hmp-08/Burmese-Bert-MLM-NSP",
+        "technologies": [   
+        ]
+      },
+
+      {
+        "title": "Burmese-POS-Tagging-Model",
+        "startDate": "2023",
+        "description": "This is a high-accuracy Burmese Part-of-Speech (POS) model Based on Transformer. The goal is to enhance NLP applications for the Burmese language and support linguistic research and localization efforts.",
+        "images": [
+          "images/portfolio/POS-tagger/POS1.png",
+          "images/portfolio/POS-tagger/POS2.png"
+        ],
+        "url": "https://github.com/hmp-08/Burmese-POS-Tagging",
+        "technologies": [   
+        ]
+      },
+      {
+        "title": "Burmese-Spell-Corrector-Model",
+        "startDate": "2023",
+        "description": "This is spell corrector for the Burmese language using a sequence-to-sequence model with attention. The model is trained on a parallel dataset of corrected spelling data along with corresponding incorrect spelling data, comprising over 100,000 sentences with syllable break information.",
+        "images": [
+          "images/portfolio/Spell-checker/SC1.png",
+          "images/portfolio/Spell-checker/SC2.png"
+        ],
+        "url": "https://github.com/hmp-08/Burmese-Spell-Checker",
+        "technologies": [   
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "UMG Myanmar (Yangon)",
+        "title": "Senior AI Engineer",
+        "years": "03.2022 - present",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
+          "Python",
+          "Tensorflow",
+          "Pytorch",
+          "Keras",
+          "BERT",
+          "Flask",
+          "Streamlit",
+          "Fastapi",
+          "Nginx",
+          "MongoDB",
+          "Machine Translation",
+          "Speech Recognitation",
+          "Speech Synthesis",
+          "Alibaba Cloud",
+          "Git and related platforms (GitHub, GitLab, Bitbucket)"
+        ]
+      },
+      {
+        "company": "MM-NLP lab (Yammobots Co.,Ltd and UTYCC (Maymyo)",
+        "title": "Research Fellow",
+        "years": "08.2018 - 03.2020",
+        "mainTech": [
+        ],
+        "technologies": [
+          "Shell",
+          "Perl",
+          "Python",
+          "POS",
+          "Spell check",
+          "NER",
+          "OCR",
+          "Data processing",
+          "Data analysis"
+        ]
+      }
+    ]
+  }
